@@ -1,0 +1,28 @@
+#sesion{
+    background-color: rgb(238, 166, 166);
+    margin: auto;
+    margin-top: 90px;
+    justify-content: center;
+    box-shadow: 0 0 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 350px;
+
+}
+body{
+        background-image: url(fondo\ pagina.jpg);
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+}
+
+input{
+    border-radius: 8px;
+    border-color: aliceblue;
+    outline: none;
+}
+button{
+    border-radius: 8px;
+    border-color: aliceblue;
+    background-color: rgb(241, 215, 223);
+}
