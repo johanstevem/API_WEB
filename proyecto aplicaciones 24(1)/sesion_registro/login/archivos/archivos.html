@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Revista Científica</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <h1>Subir Revista Científica</h1>
+            <div class="user-options">
+                <span>Bienvenido, Usuario</span>
+                <a href="/index.html" class="logout">Cerrar Sesión</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="content">
+            <div class="upload-section">
+                <h2>Subir Revista Científica</h2>
+                <div id="drop-area">
+                    <form class="upload-form">
+                        <input type="file" id="fileElem" multiple accept=".pdf" onchange="handleFiles(this.files)">
+                        <label class="button" for="fileElem">Seleccionar archivo</label>
+                    </form>
+                    <p>o arrastra un archivo aquí</p>
+                    <div id="file-list"></div>
+                </div>
+                <form id="article-form">
+                    <div>
+                        <label for="titulo">Título del artículo:</label>
+                        <input type="text" id="titulo" name="titulo" required>
+                    </div>
+                    <div>
+                        <label for="resumen">Resumen:</label>
+                        <textarea id="resumen" name="resumen" required></textarea>
+                    </div>
+                    <div>
+                        <label for="palabras-clave">Palabras claves:</label>
+                        <input type="text" id="palabras-clave" name="palabras-clave" required>
+                    </div>
+                    <div>
+                        <label for="fecha-publicacion">Fecha de publicación:</label>
+                        <input type="date" id="fecha-publicacion" name="fecha-publicacion" required>
+                    </div>
+                    <div>
+                        <label for="issn">ISSN:</label>
+                        <input type="text" id="issn" name="issn" maxlength="8" pattern="\d{8}" title="Debe contener 8 números" required>
+                    </div>
+                    <button type="submit">Subir</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <link rel="stylesheet" href="archivo.css">
+<script src="archivos.js"></script>
+</body>
+</html>

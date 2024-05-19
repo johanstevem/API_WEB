@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(/img/logo\ facci.png);
+    background-repeat: no-repeat;
+    background-position: top right; /* Posiciona la imagen en la parte superior derecha */
+    background-size: contain; /* Ajusta el tamaño de la imagen */
+    display: flex;
+    flex-direction: column;
+    min-height: 1vh;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.user-options {
+    display: flex;
+    align-items: center;
+}
+
+.user-options span {
+    margin-right: 20px;
+}
+
+.user-options .logout {
+    color: #fff;
+    text-decoration: none;
+    background-color: #d9534f;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px); /* Adjust height based on header height */
+}
+
+.content {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-section {
+    text-align: center;
+}
+
+.upload-section h2 {
+    margin-top: 0;
+}
+
+#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#drop-area.highlight {
+    border-color: #0066cc;
+}
+
+.upload-form {
+    display: inline-block;
+    position: relative;
+}
+
+.upload-form .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#file-list {
+    margin-top: 10px;
+}
+
+#article-form div {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#article-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#article-form input, 
+#article-form textarea, 
+#article-form select {
+    width: 99%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#article-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

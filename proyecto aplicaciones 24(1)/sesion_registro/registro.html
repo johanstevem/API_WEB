@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario</title>
+</head>
+<body>
+
+
+<div id="contenedor">
+   
+    <h1>Ingresa tus Datos</h1> <br>
+
+    
+            <form id="Registro">
+                    <h2>Nombre de usuario</h2>
+                    <input type="text" id ="nombre" name="nombre" required>   <!-- Con el required en la pagina ya aparece un cuadro como "completa este campo" -->
+                    <h2>Correo electronico</h2>  <!-- sin el required solo aparece un cuadro arriba que dice "la pagina dice y el mensaje que uno coloca en javascript" -->
+                    <input type="email" id ="email" name="email"required >  <!-- ambos hacen lo mismo pero es mas estetico para mi con required -->
+                    <h2>Número de telefono</h2>
+                    <input type="number" id ="number" name="numero" required >
+                    <h2>Contraseña</h2>
+                    <input type="password" id= "password" name="password" required>
+                    <br><br>
+                    <button type="submit">Registrarse</button>
+                    <br><br>
+            </form>
+            ¿Ya tienes una cuenta?
+<a href="sesion.html"> <button>Inicia sesion</button></a>
+<br><br>
+</div>    
+
+
+<link rel="stylesheet" href="estilos.css">
+<script src="operaciones.js"></script>
+</body>
+</html>

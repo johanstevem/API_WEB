@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Biblioteca de Textos Académicos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <h1>Mi Biblioteca</h1>
+            <div class="user-options">
+                <span>Bienvenido, Usuario</span>
+                <a href="/index.html" class="logout">Cerrar Sesión</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <aside class="sidebar">
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <nav id="sidebar-menu">
+                <ul>
+                    <li><a href="/sesion_registro/login/archivos/favoritos.html">Favoritos</a></li>
+                    <li><a href="archivos/archivos.html">Subir Revista Científica</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="content">
+            <div class="search-section">
+                <h2>Buscar Revistas cientificas</h2>
+                <form id="search-form">
+                    <input type="text" id="search-query" placeholder="Buscar por título, autor, tema..." required>
+                    <select id="search-filter">
+                        <option value="all">Todos</option>
+                        <option value="title">Título</option>
+                        <option value="author">Autor</option>
+                        <option value="subject">Tema</option>
+                    </select>
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+            <div id="search-results">
+                <!-- Aquí se mostrarán los resultados de la búsqueda -->
+            </div>
+        </section>
+    </main>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('sidebar-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

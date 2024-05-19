@@ -1,0 +1,34 @@
+#sesion{
+    background-color: rgb(235, 239, 241);
+    margin: auto;
+    margin-top: 90px;
+    justify-content: center;
+    box-shadow: 0 0 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 350px;
+
+}
+body{
+    background-color: #f4f4f4;
+    background-image: url('/img/logo facci.png');
+    background-repeat: no-repeat;
+    background-position: top right; /* Posiciona la imagen en la parte superior derecha */
+    background-size: contain; /* Ajusta el tamaño de la imagen */
+    display: flex;
+    flex-direction: column;
+    min-height: 1vh;
+    }
+
+input{
+    border-radius: 8px;
+    border-color: aliceblue;
+    outline: none;
+}
+button{
+    border-radius: 8px;
+    border-color: aliceblue;
+    background-color: rgb(143, 189, 143);
+    width: 100px;
+    height: 30px;
+}
