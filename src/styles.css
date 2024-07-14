@@ -1,0 +1,111 @@
+/* Estilos generales para el cuerpo de la aplicación */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #003366;
+    color: #fff;
+    padding: 8px 0;
+  }
+  
+  /* Estilos para la barra de menú */
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .menu h1 {
+    margin: 0;
+  }
+  
+  /* Estilos para la navegación */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para los botones de autenticación */
+  .auth {
+    display: flex;
+  }
+  
+  .auth button {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auth button.login {
+    background-color: #007bff;
+    width: 100px;
+    height: 60px;
+  }
+  
+  .auth button.register {
+    background-color: #007bff;
+    width: 100px;
+    height: 60px;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para la sección de bienvenida */
+  .welcome h2 {
+    color: #003366;
+    
+  }
+  
+  .welcome p {
+    font-size: 1.2em;
+  }
+  .home-wrapper {
+    text-align: center;
+  }
+  .text-container {
+    margin-bottom: 20px; /* Añade espacio entre el texto y la imagen */
+    font-size: 1.9em;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .imagen-centrada {
+    display: block;
+    margin: 0 auto;
+    width: 300px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+    border-radius: 20px;
+  }

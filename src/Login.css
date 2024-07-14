@@ -1,0 +1,36 @@
+#sesion {
+    background-color: rgb(235, 239, 241);
+    margin: auto;
+    margin-top: 90px;
+    justify-content: center;
+    box-shadow: 0 0 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 350px;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ajusta el alto mínimo del cuerpo */
+  }
+  
+  input {
+    border-radius: 8px;
+    border-color: aliceblue;
+    outline: none;
+  }
+  
+  button {
+    border-radius: 8px;
+    border-color: aliceblue;
+    background-color: rgb(143, 189, 143);
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    
+  }
+
+  

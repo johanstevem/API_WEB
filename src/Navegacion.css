@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu h1 {
+    margin: 0;
+  }
+  
+  .user-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-options span {
+    margin-right: 20px;
+  }
+  
+  .user-options .logout {
+    color: #fff;
+    text-decoration: none;
+    background-color: #d9534f;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 100%;
+    background-color: #e61d3f;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  #sidebar-menu {
+    display: block;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin: 20px 0;
+  }
+  
+  .sidebar-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  .sidebar-button:hover {
+    background-color: #2c3e50;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    width: calc(100% - 40px); /* Ajuste para el padding */
+    box-sizing: border-box;
+  }
+  
+  .search-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .search-section h2 {
+    margin-top: 0;
+  }
+  
+  .search-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #search-query,
+  #search-filter {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  #search-results {
+    margin-top: 20px;
+  }
+  

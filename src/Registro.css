@@ -1,0 +1,44 @@
+#contenedor {
+  background-color: rgb(235, 239, 241); 
+  margin: auto;
+  margin-top: 50px;
+  justify-content: center;
+  box-shadow: 0 0 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 310px;
+  font-family: Arial, sans-serif; 
+  font-size: 14px; 
+}
+
+input {
+  border-radius: 8px;
+  outline: none;
+  border-color: aliceblue;
+  background-color: #edfffd;
+  font-family: Arial, sans-serif; /* Cambia la fuente */
+  font-size: 12px; 
+}
+
+button {
+  border-radius: 8px;
+  border-color: aliceblue;
+  background-color: rgb(143, 189, 143);
+  width: 100px;
+  height: 30px;
+  font-family: Arial, sans-serif; /* Cambia la fuente */
+  font-size: 15px; /* Ajusta el tamaño de fuente */
+}
+
+body {
+  background-color: #f4f4f4;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+h2{
+  font-size: 18px; 
+  font-family: Arial, sans-serif; 
+
+}
